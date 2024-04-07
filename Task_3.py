@@ -1,7 +1,6 @@
 #import libraries here
 
 def main():
-  while True:
     l=int(input("Enter a wavelength in nm: "))
     if l>=380 and l<450:
         print("The relevant color is Violet")
@@ -17,8 +16,6 @@ def main():
         print("The relevant color is Red")
     else:
         print("Invalid input!")
-
-
    pass
 
 if __name__ == "__main__":
