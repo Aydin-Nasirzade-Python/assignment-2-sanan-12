@@ -29,7 +29,7 @@ def main():
                 print(f"{m} is the year of the Hare")
         else:
             print("Invalid input!")
-        pass
+        pass 
 
 if __name__ == "__main__":
   main()
